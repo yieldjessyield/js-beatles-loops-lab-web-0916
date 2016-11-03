@@ -21,11 +21,10 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(n){
   var array = []
-  var i = n
   do {
   array.unshift("I love the Beatles!")
-  i += 1;
-} while (i < 15);
+  n += 1;
+} while (n < 15);
 return array
 
 }
